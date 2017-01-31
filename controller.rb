@@ -4,7 +4,7 @@ require_relative('./models/Game')
 
 get "/" do
    erb(:home)
-   "Rules"
+ 
 end
 
 get "/play/:player1/:player2" do
@@ -14,7 +14,7 @@ get "/play/:player1/:player2" do
   @player2 = params[:player2]
   @turn = game1.turn
 
-  erb(:play)
+  erb(:game)
 end
 
 get "/play" do

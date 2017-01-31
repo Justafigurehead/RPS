@@ -1,4 +1,65 @@
+
 body {
   background: #DE6449; 
 
+}
+
+.text {
+  background: #FFFFF3;
+  border-radius: 25px;
+  margin: 40px auto 5px;
+  width:500px;
+  height:390px;
+  padding: 1px 0px 5px 0px;
+  font-family: 'Nunito';
+  color: #58C9B9;
+}
+
+/*div class text*/
+
+.text h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.text p {
+  font-size:33px;
+  text-align:center;
+  letter-spacing: 0.05em;
+  padding:5px 15px 5px 15px;
+}
+
+.text p strong {
+  font-weight:800;
+}
+
+.text ul {
+  margin-left: 25px;
+  font-size: 25px;
+}
+/*navigation*/
+
+nav {
+  width:440px;
+  margin:10px auto 10px;
+  background: #E3E36A;
+  border-radius: 25px;
+  color:#fff;
+  font-size:33px;
+  font-family:'Nunito';
+}
+
+
+nav a:link, a:visited, a:active {
+  text-align: center;
+  color:#FFF;
+  font-size:33px;
+  font-family: 'Nunito';
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:10px 25px 5px 25px;
+}
+
+nav a:hover {
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5)
 }

@@ -35,19 +35,11 @@ class Game
     end
    end
 
+   # def check_tie?
+   #   if @player_1 == @player_2
+   #     return true
+   #   else
+   #      return false
+   # end
 
- 
-  # def check_tie?
-  #   if @player_1 == @player_2
-  #     return true
-  #   else
-  #      return false
-  # end
-
-
-    # def win_game()
-
-
-
-    # end
 end
